@@ -1,0 +1,21 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 16
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "com.meowme.camerarecorder"
+        minSdkVersion 16
+        targetSdkVersion 16
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+}
